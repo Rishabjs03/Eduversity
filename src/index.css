@@ -1,3 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+}
+
+.btn{
+  background: #f5f5f5;
+  color: #212121;
+  padding: 14px 25px ;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0 ;
+  outline: 0;
+}
+.btn.dark-btn{
+  background: #212Ea0;
+  color: white;
+}
